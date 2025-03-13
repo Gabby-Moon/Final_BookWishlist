@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Entries</title>
 
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" defer>
 </head>
 <body>
     <div>
@@ -14,6 +14,7 @@
             <p>Book Title: <%= books[i].title %></p>
             <p>Comments: <%= books[i].comments %></p>
             <p>Rating: <%= books[i].rating %></p>
+            <p>------</p>
         <% } %>
         <br>
     </div>

@@ -1,5 +1,4 @@
 import express from 'express'
-import { title } from 'process';
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
@@ -20,7 +19,7 @@ app.post('/summary', (req, res) => {
         rating: req.body.rating
     };
     books.push(book);
-
+    console.log(books);
     res.render('summary', { books });
 });
 
