@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Book</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/client-verification.js"></script>
+</head>
+<body>
+    <div>
+        <h2>Add a book to your list</h2>
+        <form action="summary" method="post" id="book-form">
+            <legend>Book Title:</legend>
+            <label>
+                <input type="text" name="bookTitle" id="bookTitle">
+            </label>
+            <span class="err" id="err-title">Need a book title</span>
+            <legend>Comments:</legend>
+            <label>
+                <input type="content" name="comments" id="comments">
+            </label>
+            <span class="err" id="err-comment">Need a comment</span>
+            <legend>Rating:</legend>
+            <label>
+                <input type="text" name="rating" id="rating">
+            </label>
+            <span class="err" id="err-rating">Need a numbered rating</span>
+
+            <button type="submit">Add Book</button>
+        </form>
+    </div>
+</body>
+</html>

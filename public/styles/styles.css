@@ -1,0 +1,28 @@
+.err {
+    display: none;
+    color: darkred;
+}
+
+body {
+    background:aliceblue;
+}
+
+div {
+    background: lightsteelblue;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+}
+
+button {
+    display: block;
+    border: none;
+    background: lightgreen;
+    margin: auto;
+    margin-top: 5px;
+}
+button:hover {
+    background: green;
+    color: whitesmoke;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Entries</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div>
+    <h1>Book List</h1>
+        <% for (let i=0; i<books.length; i++) { %>
+            <p>Book Title: <%= books[i].title %></p>
+            <p>Comments: <%= books[i].comments %></p>
+            <p>Rating: <%= books[i].rating %></p>
+        <% } %>
+        <br>
+    </div>
+</body>
+</html>
